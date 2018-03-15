@@ -12,7 +12,7 @@
 var arr = [5,"a","b","c",1,3,2,4,6];
 
 
-//:::::::::::::::::::::::::::::  filter()  | Creates a new array with all elements that pass the test implemented 
+//:::::::::::::::::::::::::::::  filter() | Creates a new array with all elements that pass the test implemented
 
  
   /*...................................................................
@@ -74,7 +74,7 @@ var arr = [5,"a","b","c",1,3,2,4,6];
   
   // console.log(arr.slice(2,6));    //-> ["b", "c", 1, 3]
 
-//:::::::::::::::::::::::::::::  concat() | Merge two or more arrays and returns a new array 
+//:::::::::::::::::::::::::::::  concat() | Merge two or more arrays and returns a new array
   
   /*...................................................................
   
@@ -95,7 +95,7 @@ var arr = [5,"a","b","c",1,3,2,4,6];
   // var arr4 = arr1.concat(arr2,arr3);
   // console.log(arr4);
 
-//:::::::::::::::::::::::::::::  push()   | method adds one or more elements to the end of an array and returns the new length of the array 
+//:::::::::::::::::::::::::::::  push()   | Adds one or more elements to the end of an array and returns the new length of the array
   
   /*...................................................................
   
@@ -110,7 +110,7 @@ var arr = [5,"a","b","c",1,3,2,4,6];
   // console.log(arrPushy.push("culo")); //-> 4 
   // console.log(arrPushy); //-> [1,2,3,"culo"] 
 
-//:::::::::::::::::::::::::::::  map()    | method creates a new array with the results of calling a provided function on every element in the calling array.
+//:::::::::::::::::::::::::::::  map()    | Creates a new array with the results of calling a provided function on every element in the calling array.
   
   /*...................................................................
   
@@ -119,7 +119,7 @@ var arr = [5,"a","b","c",1,3,2,4,6];
 	#	The filter method doesn't do the same as the map method. The map method is used to convert each item of an array, 
 		while the filter method is used to select certain items of an array. Comparing the performance between the methods is moot,
 		as only one of them does what you want to do.
-		
+
 	#	Crea nuevo array
 
 	
